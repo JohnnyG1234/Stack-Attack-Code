@@ -16,19 +16,6 @@ def bubblesort(items : list[int]) -> list[int]:
     return items
 
 
-print("testing my sort")
-
-test_unsorted  =  [14, 1231, 2, 12, 5, 123, 24, 1]
-print(f'unsorted: {test_unsorted}')
-
-
-test_sorted = bubblesort(test_unsorted)
-print(f'sorted: {test_sorted}')
-
-
-
-
-
 
 
 
