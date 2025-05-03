@@ -57,7 +57,7 @@ def whatCouldGoWrong():
 
 
 if __name__ == "__main__":
-    methodOne()
+    #methodOne()
     #withoutTry()
     #causesException()
-    #whatCouldGoWrong()
+    whatCouldGoWrong()
