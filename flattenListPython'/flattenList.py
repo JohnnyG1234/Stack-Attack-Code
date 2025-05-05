@@ -23,6 +23,7 @@ def main():
     for sub in l:
         flat_list.extend(sub)
 
+
     print(flat_list)
 
 
