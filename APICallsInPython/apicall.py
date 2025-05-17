@@ -2,6 +2,11 @@
 import requests
 
 
-x = requests.get('https://w3schools.com/python/demopage.htm')
+# https://api.dictionaryapi.dev/api/v2/entries/en/hello
+# https://api.dictionaryapi.dev/api/v2/entries/en/<word>
 
-print(x.text)
+url = 'https://api.dictionaryapi.dev/api/v2/entries/en/hello'
+
+response = requests.request("GET", url)
+
+print(response.json()[0]["meanings"])
