@@ -9,4 +9,4 @@ url = 'https://api.dictionaryapi.dev/api/v2/entries/en/hello'
 
 response = requests.request("GET", url)
 
-print(response.json()[0]["meanings"])
+print(response.json()[0]['word'])
